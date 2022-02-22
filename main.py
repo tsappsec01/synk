@@ -13,7 +13,7 @@ def print_hi(name):
     # print(f'{addr1}')
     csrftoken = 'A7MvkJGg-XWQjGC7i8bwprpV_6NDI3nGcJpc'
 
-    r = requests.post('https://127.0.0.1/org/tsappsec01/manage/settings/ignore',
+    r = requests.post('https://app.snyk.io/org/tsappsec01/manage/settings/ignore',
                       data={'_csrf': f'{csrftoken}',
                             'orgIgnoreSettings[adminOnly]': 'false',
                             'orgIgnoreSettings[reasonRequired]': 'true'},
