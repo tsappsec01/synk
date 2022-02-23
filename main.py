@@ -28,8 +28,8 @@ def print_hi(name):
     TCP_PORT = 8089
     BUFFER_SIZE = 1024
     MESSAGE = "Hello, World!"
-    startport = 0
-    endport = 65535
+    startport = 21
+    endport = 22
     openports = []
 
 
