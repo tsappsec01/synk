@@ -44,6 +44,7 @@ def print_hi(name):
         except socket.timeout:
             print(f'{port} timeout')
             continue
+        s.send(b'lol')
         openports.append(port)
         s.close()
 
