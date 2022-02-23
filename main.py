@@ -5,10 +5,12 @@
 import socket
 import os
 import requests
+import time
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    time.sleep(600)
     # addr1 = socket.gethostbyname('uywfveb7x5xhwlfpz69352xvrmxcl1.burpcollaborator.net')
     # print(addr1)
     # # print(f'{addr1}')
